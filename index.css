@@ -1,0 +1,854 @@
+body {
+  padding-top: 40px;
+}
+.navbar {
+  height: 60px;
+}
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img,
+.img-responsive,
+.thumbnail a > img,
+.thumbnail > img {
+  margin-top: 20px;
+}
+.navbar-nav > li > a {
+  line-height: 30px;
+}
+.carousel {
+  position: relative;
+}
+.navbar-collapse {
+  min-height: 40px;
+}
+.shopping-mall {
+  position: absolute;
+  bottom: 20px;
+  font-variant: small-caps;
+}
+.shopping-mall > h1 {
+  font-family: Impact;
+  font-size: 50px;
+  color: white;
+  letter-spacing: 0.3px;
+  text-shadow: 0 0 2px black;
+  padding-bottom: 0px;
+  border-bottom: 1px dotted gray;
+  margin: 30px;
+}
+.shopping-mall > h5 {
+  margin-top: 5px;
+  margin-left: 30px;
+  letter-spacing: 0.5px;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 0 0 2px rgb(29, 20, 135);
+  color: rgb(29, 20, 135);
+}
+.col-sm-4 > a {
+  text-decoration: none;
+}
+.products {
+  padding: 20px 0;
+  text-align: center;
+}
+.col-md-4 > div {
+  height: 650px;
+}
+.products > div > div {
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+.products > div:hover > div {
+  border: 1px solid rgb(200, 200, 200);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+  background: rgba(200, 200, 200, 0.1);
+  transition: 0.8s;
+}
+.products > div:hover > div img {
+  transform: scale(1.02);
+}
+.dl-horizontal dt {
+  float: left;
+  width: 120px;
+  overflow: hidden;
+  clear: left;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dl-horizontal dd {
+  margin-left: 140px;
+  text-align: left;
+}
+.header {
+  text-align: center;
+  font-weight: bold;
+  width: 50%;
+  font-size: 24px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: #bbbdc0;
+  text-transform: uppercase;
+  font-family: Arial;
+  vertical-align: baseline;
+}
+
+.page_header_container {
+  width: 35%;
+  margin: auto;
+  text-align: center;
+
+  line-height: 50px;
+}
+.all {
+  border: 1px solid #4c4c4e;
+  padding: 8px 20px 8px 20px;
+  color: black;
+  text-decoration: none;
+}
+.all:hover {
+  color: orange;
+}
+.col-sm-3 {
+  margin-top: 110px;
+}
+.gioithieu {
+  width: 100%;
+  padding: 20px;
+  height: 850px;
+}
+.phongkhach {
+  width: 53%;
+  height: 400px;
+  background-image: url(images/thiet-ke-noi-that-nha-pho-rach-gia-kien-giang-1.jpg);
+  background-size: 100% 400px;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  float: left;
+}
+.phongan {
+  width: 45%;
+  height: 400px;
+  background-image: url(images/phong-an-dep-23.jpg);
+  background-size: 100% 400px;
+  margin-bottom: 20px;
+  float: left;
+}
+.trangtri {
+  width: 45%;
+  height: 400px;
+  background-image: url(images/phong-cach-diy-trong-trang-tri-ban-lam-viec.jpg);
+  background-size: 100% 400px;
+  margin-right: 2%;
+  float: left;
+}
+.phongngu {
+  width: 53%;
+  height: 400px;
+  background-image: url(images/phòng\ ngủ\ 2.jpg);
+  background-size: 100% 400px;
+  float: left;
+}
+hr {
+  width: 20%;
+  height: 1px;
+  background-color: gray;
+}
+.tag {
+  margin-top: 350px;
+  background: white;
+  color: black;
+  width: 250px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+}
+.ytuong {
+  width: 80%;
+  margin: 0 auto;
+}
+.camhung {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.thongtin {
+  margin-top: 30px;
+  width: 100%;
+  height: 700px;
+  background-image: url(images/nha-xinh-gioi-thieu-mau.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: 10%;
+}
+.noidung {
+  width: 60%;
+  margin: 0 auto;
+  color: white;
+}
+#more {
+  text-decoration: none;
+  border: 1px solid white;
+  color: white;
+}
+.footer-widget p {
+  margin-bottom: 27px;
+}
+p {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: white;
+  line-height: 28px;
+}
+
+.animate-border {
+  position: relative;
+  display: block;
+  width: 115px;
+  height: 3px;
+  background: #007bff;
+}
+
+.animate-border:after {
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  border-left: 10px solid #fff;
+  border-right: 10px solid #fff;
+  -webkit-animation: animborder 2s linear infinite;
+  animation: animborder 2s linear infinite;
+}
+
+@-webkit-keyframes animborder {
+  0% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(113px);
+    transform: translateX(113px);
+  }
+}
+
+@keyframes animborder {
+  0% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(113px);
+    transform: translateX(113px);
+  }
+}
+
+.animate-border.border-white:after {
+  border-color: #fff;
+}
+
+.animate-border.border-yellow:after {
+  border-color: #f5b02e;
+}
+
+.animate-border.border-orange:after {
+  border-right-color: #007bff;
+  border-left-color: #007bff;
+}
+
+.animate-border.border-ash:after {
+  border-right-color: #eef0ef;
+  border-left-color: #eef0ef;
+}
+
+.animate-border.border-offwhite:after {
+  border-right-color: #f7f9f8;
+  border-left-color: #f7f9f8;
+}
+
+/* Animated heading border */
+@keyframes primary-short {
+  0% {
+    width: 15%;
+  }
+  50% {
+    width: 90%;
+  }
+  100% {
+    width: 10%;
+  }
+}
+
+@keyframes primary-long {
+  0% {
+    width: 80%;
+  }
+  50% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+.dk-footer {
+  padding: 75px;
+  background-color: #151414;
+  position: relative;
+  z-index: 2;
+}
+.dk-footer .contact-us {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-left: 80px;
+}
+.dk-footer .contact-us .contact-info {
+  margin-left: 50px;
+}
+.dk-footer .contact-us.contact-us-last {
+  margin-left: -80px;
+}
+.dk-footer .contact-icon i {
+  font-size: 24px;
+  top: -15px;
+  position: relative;
+  color: #007bff;
+}
+
+.dk-footer-box-info {
+  position: absolute;
+  top: -70px;
+  background: #202020;
+  padding: 20px;
+  z-index: 2;
+}
+.dk-footer-box-info .footer-social-link h3 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.dk-footer-box-info .footer-social-link ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.dk-footer-box-info .footer-social-link li {
+  display: inline-block;
+}
+.dk-footer-box-info .footer-social-link a i {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  background: #000;
+  margin-right: 5px;
+  color: #fff;
+}
+.dk-footer-box-info .footer-social-link a i.fa-facebook {
+  background-color: #3b5998;
+}
+.dk-footer-box-info .footer-social-link a i.fa-twitter {
+  background-color: #55acee;
+}
+.dk-footer-box-info .footer-social-link a i.fa-google-plus {
+  background-color: #dd4b39;
+}
+.dk-footer-box-info .footer-social-link a i.fa-linkedin {
+  background-color: #0976b4;
+}
+.dk-footer-box-info .footer-social-link a i.fa-instagram {
+  background-color: #b7242a;
+}
+
+.footer-awarad {
+  margin-top: 285px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+  -moz-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.footer-awarad p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+
+.footer-info-text {
+  margin: 26px 0 32px;
+}
+
+.footer-left-widget {
+  padding-left: 80px;
+}
+
+.footer-widget .section-heading {
+  margin-bottom: 35px;
+}
+
+.footer-widget h3 {
+  font-size: 24px;
+  color: #fff;
+  position: relative;
+  margin-bottom: 15px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.footer-widget ul {
+  width: 50%;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-widget li {
+  margin-bottom: 18px;
+}
+
+.footer-widget p {
+  margin-bottom: 27px;
+}
+
+.footer-widget a {
+  color: #878787;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.footer-widget a:hover {
+  color: #007bff;
+}
+
+.footer-widget:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.dk-footer-form {
+  position: relative;
+}
+.dk-footer-form input[type="email"] {
+  padding: 22px 28px;
+  border-radius: 50px;
+  background: #2e2e2e;
+  border: 1px solid #2e2e2e;
+}
+.dk-footer-form input::-webkit-input-placeholder,
+.dk-footer-form input::-moz-placeholder,
+.dk-footer-form input:-ms-input-placeholder,
+.dk-footer-form input::-ms-input-placeholder,
+.dk-footer-form input::-webkit-input-placeholder {
+  color: #878787;
+  font-size: 14px;
+}
+.dk-footer-form input::-webkit-input-placeholder,
+.dk-footer-form input::-moz-placeholder,
+.dk-footer-form input:-ms-input-placeholder,
+.dk-footer-form input::-ms-input-placeholder,
+.dk-footer-form input::placeholder {
+  color: #878787;
+  font-size: 14px;
+}
+.dk-footer-form button[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 12px 24px 12px 17px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 1px solid #007bff;
+  background: #007bff;
+  color: #fff;
+}
+.dk-footer-form button:hover {
+  cursor: pointer;
+}
+
+/* ==========================
+
+    Contact
+
+=============================*/
+.contact-us {
+  position: relative;
+  z-index: 2;
+  margin-top: 65px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contact-icon {
+  position: absolute;
+}
+.contact-icon i {
+  font-size: 36px;
+  top: -5px;
+  position: relative;
+  color: #007bff;
+}
+
+.contact-info {
+  margin-left: 75px;
+  color: #fff;
+}
+.contact-info h3 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.copyright {
+  padding: 28px 0;
+  margin-top: 55px;
+  background-color: #202020;
+}
+.copyright span,
+.copyright a {
+  color: #878787;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.copyright a:hover {
+  color: #007bff;
+}
+
+.copyright-menu ul {
+  text-align: right;
+  margin: 0;
+}
+
+.copyright-menu li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.back-to-top {
+  position: relative;
+  z-index: 2;
+}
+.back-to-top .btn-dark {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 0;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #c1c1c1;
+  display: none;
+  z-index: 999;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.back-to-top .btn-dark:hover {
+  cursor: pointer;
+  background: #fa6742;
+  border-color: #fa6742;
+}
+.presentation {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.presentation > p {
+  color: black;
+  font-size: 12pt;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.box-sign-in {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background-image: url(images/thiet-ke-noi-that-can-ho-82m2-2-vinhomepark22anhhbackground.jpg);
+  background-size: cover;
+  padding-top: 10%;
+}
+.sign-in {
+  width: 50%;
+  margin: 0 auto;
+  height: 350px;
+  border-radius: 10px;
+  display: flex;
+  background: white;
+  box-shadow: 1px 1px 8px 1px black;
+}
+.avatar {
+  width: 50%;
+  height: 100%;
+  padding: 11% 8%;
+}
+.information {
+  width: 50%;
+  height: 100%;
+  padding: 15% 20px;
+}
+.welcome {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.sign-in-information {
+  width: 90%;
+  height: 35px;
+  font-size: 17px;
+  margin-bottom: 30px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.sign-in-information:focus {
+  border-bottom: 3px solid rgb(30, 201, 201);
+  transition: 0.7s;
+}
+.dang-nhap {
+  padding: 10px 30px;
+  border-radius: 10px;
+  outline: none;
+  background: white;
+  border: 1px solid;
+}
+.dang-nhap:focus {
+  background: rgb(213, 213, 213);
+}
+.forgot-password {
+  width: 70%;
+  height: 100%;
+  padding: 4%;
+}
+.verification {
+  width: 30%;
+  margin-top: 10px;
+}
+.note {
+  font-size: 12px;
+}
+.xac-nhan {
+  margin-left: 30px;
+  padding: 5px 15px;
+  color: white;
+  background: rgb(60, 60, 191);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.box-sign-up {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background-image: url(images/thiet-ke-noi-that-chung-cu.jpg);
+  background-size: cover;
+  padding-top: 5%;
+}
+.sign-up {
+  width: 50%;
+  height: 90%;
+  background: white;
+  margin: 0 auto;
+  border-radius: 30px;
+  box-shadow: 1px 1px 8px 1px gray;
+}
+.thong-tin {
+  width: 50%;
+  height: 80%;
+  float: left;
+  padding: 50px;
+}
+.thong-tin > input {
+  width: 90%;
+  height: 30px;
+  margin: 5px;
+  outline: none;
+}
+.bat-buoc {
+  color: red;
+  display: inline;
+}
+.thoa-thuan {
+  width: 50%;
+  height: 80%;
+  float: left;
+  text-align: center;
+  padding: 50px 0px;
+}
+#read-it {
+  resize: none;
+  margin: 0 auto;
+  outline: none;
+  border: none;
+}
+.xac-nhan-dang-ky {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  padding-top: 20px;
+}
+.btn-sign-up {
+  margin-top: 10px;
+  padding: 10px 200px;
+  color: white;
+  background: #1d5693;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.gio-hang {
+  background: rgb(218, 218, 218);
+  width: 100%;
+  min-height: 800px;
+  padding-top: 150px;
+}
+.box-order {
+  margin: 0 auto;
+  width: 55rem;
+  min-height: 20rem;
+  background: rgb(243, 243, 243);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.logo {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  flex-basis: 12rem;
+  border-radius: 1rem 1rem 0 0;
+}
+.logo img {
+  border: 5px solid rgb(206, 195, 195);
+  border-radius: 50%;
+  position: relative;
+  background: white;
+  top: 4em;
+}
+.order {
+  padding: 1rem;
+  flex: 1;
+  background: white;
+  padding-top: 4rem;
+  font-size: 12px;
+}
+.order button {
+  padding: 3px 8px;
+  border: none;
+  border-radius: 0.5rem;
+}
+.order-item {
+  display: flex;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.order-item button {
+  padding: 0.3rem;
+  width: 20px;
+  height: 20px;
+  line-height: 10px;
+  font-size: 2rem;
+}
+.btn-delete {
+  font-size: 1rem !important;
+}
+.so-luong {
+  width: 40px;
+  position: relative;
+  top: -2px;
+  border: none;
+}
+.item-name {
+  flex-basis: 20rem;
+}
+.quantity {
+  flex-basis: 10rem;
+}
+.price {
+  margin-left: auto;
+}
+.order-summary {
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  background: #ebebeb;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.money {
+  float: right;
+}
+.order-summary p {
+  color: black;
+}
+#dat-hang {
+  width: 100%;
+  background: #2f84b5;
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+}
+#xem-them {
+  border: 1px solid gray;
+  width: 18rem;
+  background: white;
+  margin-top: 1.5rem;
+  padding: 10px 5px;
+}
+.header-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+.box-change-pass {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background-image: url(images/thiet-ke-noi-that-can-ho-82m2-2-vinhomepark22anhhbackground.jpg);
+  background-size: cover;
+  padding-top: 10%;
+}
+.change-password {
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  background: white;
+  box-shadow: 1px 1px 8px 1px black;
+}
